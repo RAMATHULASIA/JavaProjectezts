@@ -1,0 +1,107 @@
+💳 Simple Java Banking System
+This is a basic command-line Banking System implemented in Java. It simulates essential banking operations for a single customer such as account creation, deposit, withdrawal, balance inquiry, and PIN management.
+
+📋 Features
+Customer account creation with:
+
+Name, Customer ID, Account Number, Branch, and Bank
+
+Deposit money into the account
+
+Withdraw money using a 4-digit PIN
+
+Check balance using PIN authentication
+
+Change account PIN securely
+
+📁 Project Structure
+Main.java: Contains the entire logic of the application.
+
+Customer class: Represents a bank customer and encapsulates account operations.
+
+main() method: Handles user inputs and interactions.
+
+🛠️ Technologies Used
+Java (JDK 8 or higher)
+
+Scanner class for input handling
+
+Object-Oriented Programming (OOP) principles
+
+▶️ How to Run
+Clone or Download this repository.
+
+Open the Main.java file in any Java IDE (e.g., IntelliJ, Eclipse) or terminal editor.
+
+Compile and run the program using:
+
+bash
+Copy
+Edit
+javac Main.java
+java Main
+Follow the on-screen prompts to:
+
+Enter customer details
+
+Make deposits
+
+Withdraw money with a PIN
+
+Check balance
+
+Change your PIN
+
+🔐 Default PIN
+The default PIN for any newly created account is: 5566
+
+You can change it during execution when prompted.
+
+📌 Sample Flow
+plaintext
+Copy
+Edit
+Enter Name: John Doe
+Enter Customer ID: 101
+Enter Account Number: 123456
+Enter Branch: Downtown
+Enter Bank: ABC Bank
+
+Name is: John Doe
+Customer ID is: 101
+Account Number is: 123456
+Branch is: Downtown
+Bank is: ABC Bank
+
+Enter amount to deposit: 5000
+Deposit successful!
+
+Enter your PIN to check balance: 5566
+Balance is: 5000
+
+Enter your PIN to withdraw: 5566
+Enter amount to withdraw: 2000
+Withdrawal successful!
+
+Enter your PIN to change PIN: 5566
+Enter your new PIN: 1234
+PIN changed successfully to 1234
+
+Enter PIN to check final balance: 1234
+Balance is: 3000
+🧾 Notes
+This is a single-customer demo project.
+
+No persistent storage or database is used.
+
+All data is stored in memory and lost once the program exits.
+
+🚀 Future Enhancements (Optional Ideas)
+Support for multiple customers
+
+Add file or database storage
+
+GUI or web-based interface
+
+Enhanced validation and error handling
+
